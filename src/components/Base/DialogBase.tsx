@@ -19,7 +19,7 @@ const Wrapper = styled.div<{ radius: string }>`
   ${({ radius }) => {
     return css`
       border-radius: ${radius};
-      box-shadow: rgba(51, 51, 51, 0.3) 0px 1px 10px 0;
+      box-shadow: rgba(51, 51, 51, 0.3) 0 1px 10px 0;
       background-color: #fff;
     `
   }}
